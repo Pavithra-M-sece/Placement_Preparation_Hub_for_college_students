@@ -1,0 +1,6 @@
+@echo off
+echo Starting MongoDB...
+start "MongoDB" "C:\Program Files\MongoDB\Server\8.0\bin\mongod.exe" --dbpath="C:\data\db"
+echo MongoDB is starting in a new window...
+echo Keep that window open while using the application.
+pause
